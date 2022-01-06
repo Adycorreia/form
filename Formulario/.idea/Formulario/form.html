@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./js/bootstrap.min.js">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <title>Formulario</title>
+</head>
+<body>
+<div id="agrupar">
+
+    <section id="seccion">
+        <article>
+            <header>
+                <hgroup>
+                    <h1> Formulário</h1>
+                </hgroup>
+            </header>
+<br>
+            <form class="row row-cols-lg-auto g-3 align-items-center">
+
+                <div class="col-12">
+
+                    <label for="exampleFormControlInput1" class="form-label">Quiosque</label>
+                    <select class="form-select" id="inlineFormSelectPref">
+                        <option selected>Select Sede...</option>
+                        <option value="1">Sede1</option>
+                        <option value="2">Sede2</option>
+                        <option value="3">Sede3</option>
+                        <option value="4">Sede4</option>
+                        <option value="5">Sede4</option>
+                    </select>
+                </div>
+                <div class="col-12">
+                    <label for="exampleFormControlInput1" class="form-label">Numero de Processo</label>
+                    <div class="input-group">
+                        <input type="text" class="form-control" id="inlineFormInputGroupUsername" placeholder="Processo">
+                    </div>
+                </div>
+                <div class="col-12" class="bot">
+                    <br>
+                    <button type="submit" class="btn btn-primary">Pesquisa</button>
+                </div>
+            </form>
+            <br>
+            <form class="row row-cols-lg-auto g-3 align-items-center">
+
+                <div class="col-12">
+                    <label for="exampleFormControlInput1" class="form-label">Altura</label>
+                    <div class="input-group">
+                        <input type="text" class="form-control" id="inlineFormInputGroupUsername" placeholder="Altura">
+                    </div>
+                </div>
+
+                <div class="col-12">
+                    <br>
+                    <label for="exampleFormControlInput1" class="form-label">Casos Especiais</label>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                        <label class="form-check-label" for="inlineCheckbox1">SIM</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                        <label class="form-check-label" for="inlineCheckbox2">NÃO</label>
+                    </div>
+                </div>
+            </form>
+        </article>
+
+
+        <article>
+            <header>
+            <hgroup>
+                <h1> Motivo</h1>
+            </hgroup>
+            </header><br>
+
+            <form class="row row-cols-lg-auto g-3 " >
+                <fieldset >
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Ausência Impressão Digital Direito</label>
+                        <select class="form-select" id="inlineFormSelectPref">
+                            <option selected>Select ...</option>
+                            <option value="1">Ex1</option>
+                            <option value="2">Ex2</option>
+                            <option value="3">Ex3</option>
+                            <option value="4">Ex4</option>
+
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Ausência Impressão Digital Esquerdo</label>
+                        <select class="form-select" id="inlineFormSelectPref">
+                            <option selected>Select...</option>
+                            <option value="1">Ex1</option>
+                            <option value="2">Ex2</option>
+                            <option value="3">Ex3</option>
+                            <option value="4">Ex4</option>
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Não Assinatura</label>
+                        <select class="form-select" id="inlineFormSelectPref">
+                            <option selected>Select...</option>
+                            <option value="1">Ex1</option>
+                            <option value="2">Ex2</option>
+                            <option value="3">Ex3</option>
+                            <option value="4">Ex4</option>
+                        </select>
+                    </div>
+                </fieldset>
+
+                <form class="row row-cols-lg-auto g-3 align-items-lg-start">
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Observações</label>
+                        <textarea class="form-control comp" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                </form>
+            </form>
+
+        </article>
+
+    </section>
+
+
+
+
+</div>
+</body>
+</html>

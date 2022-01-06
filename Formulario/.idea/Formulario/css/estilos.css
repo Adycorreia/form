@@ -1,0 +1,55 @@
+
+
+h1{
+    font: bold 20px Verdana, sans-serif;
+}
+
+body{
+    text-align: center;
+}
+#agrupar{
+    width: 85%;
+    margin: 15px;
+    text-align: left;
+}
+
+#seccion{
+    width: 55%;
+    margin: 150px;
+    float: left;
+    position: center;
+    display: inline-block;
+}
+
+article{
+    background: #d3ceb7;
+    border:  1px solid #ffffff;
+    padding: 25px;
+    margin-bottom: 15px;
+
+}
+article footer{
+    text-align: right;
+}
+
+.btn-primary{
+    margin-top: 5px;
+}
+
+.mb-3{
+    width: 280px;
+
+
+}
+.col-12{
+    width: 280px;
+}
+
+.form-control{
+    width: 280px;
+}
+
+.comp{
+    height: 210px;
+    width: 355px;
+}
